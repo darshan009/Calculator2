@@ -1,0 +1,25 @@
+
+  <div id="calculator" ng-controller="calculator">
+    <input type="text" class="answer" ng-model="displayAnswer">
+    <div class="clearButton" ng-click="clearDisplay()">C</div>
+
+    <span ng-click="buttonClick('7')">7</span>
+    <span ng-click="buttonClick('8')">8</span>
+    <span ng-click="buttonClick('9')">9</span>
+    <span ng-click="buttonClick('*')">*</span>
+
+    <span ng-click="buttonClick('4')">4</span>
+    <span ng-click="buttonClick('5')">5</span>
+    <span ng-click="buttonClick('6')">6</span>
+    <span ng-click="buttonClick('-')">-</span>
+
+    <span ng-click="buttonClick('1')">1</span>
+    <span ng-click="buttonClick('2')">2</span>
+    <span ng-click="buttonClick('3')">3</span>
+    <span ng-click="buttonClick('/')">/</span>
+
+    <span ng-click="buttonClick('0')">0</span>
+    <span ng-click="buttonClick('.')">.</span>
+    <span ng-click="buttonClick('+')">+</span>
+    <span ng-click="calculate()">=</span>
+  </div>
